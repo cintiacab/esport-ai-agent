@@ -5,7 +5,7 @@
 }
 
 body { 
-    background-image: url("./assets/bg.jpg");
+    background-image: url("./src/assets/bg.jpg");
     background-size: cover; /* Scales the background image to cover the entire container. */
     background-position: center; /* Centers the background image. */
     background-repeat: no-repeat; /* Prevents the image from repeating. */
@@ -111,4 +111,21 @@ button:hover{
     cursor: pointer;
     transform: translateY(-2px);
     box-shadow: 0 5px 1rem rgba(255, 248, 107, 0.2);
+}
+
+button:disabled{
+    transform: translateY(0);
+    box-shadow: initial;
+    cursor: progress;
+    color: #2a2634;
+}
+
+.loading{
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse{
+    50% {
+        opacity: 0.5;
+    }
 }
