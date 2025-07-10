@@ -1,7 +1,7 @@
 export function makePrompt(game, question){
   const prompt = `
     ## Specialty
-    You're a specialist meta assistent for the egame ${game}
+    You're a specialist meta assistant for the egame ${game}
     
     ## Task
     You need to answer the user querys based on your game knowledge, strategies, build and tips.
