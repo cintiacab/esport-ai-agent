@@ -28,6 +28,7 @@ form.addEventListener('submit', async (event) => {
     const text = await askAI(apiKey, game, question)
     const formatText = markdownHTML(text)
     aiResponse.querySelector('.response-content').innerHTML = formatText
+    aiResponse.classList.remove("hidden")
   } catch (error) {
     alert("Sorry, I'm still connecting. Please try again.")
     console.log(error)
