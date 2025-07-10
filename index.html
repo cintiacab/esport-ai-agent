@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/logo.png" alt="Rocketseat NLW Esports logo">
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h2>Meta Assistent 😎</h2>
+                <p>Ask me about strategies, build and tips for your game. Go for it!</p>
+
+                <form id="form">
+                    <input id="apiKey" type="password" placeholder="Enter Gemini API KEY" required>
+
+                    <select id="gameSelector">
+                        <option value="">Select your game</option>
+                        <option value="valorant">Valorant</option>
+                        <option value="lol">League of Legends</option>
+                        <option value="cs">CS:GO</option>
+                    </select>
+
+                    <input id="questionInput" type="text" placeholder="e.g. Best ADC build... ">
+
+                    <button id="askButton"> Ask me </button>
+                </form>
+                <div id="aiResponse"></div>
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
