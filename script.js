@@ -1,4 +1,5 @@
 import {askAI} from "./src/server/ask-ai.js"
+import {markdownHTML} from "./src/packages/showdown-pkg.js"
 
 const form = document.getElementById("form")
 const apiKeyInput = document.getElementById('apiKey')
@@ -25,7 +26,8 @@ form.addEventListener('submit', async (event) => {
 
   try {
     const text = await askAI(apiKey, game, question)
-    aiResponse.querySelector('.response-content').innerHTML = text
+    const formatText = markdownHTML(text)
+    aiResponse.querySelector('.response-content').innerHTML = formatText
   } catch (error) {
     alert("Sorry, I'm still connecting. Please try again.")
     console.log(error)
