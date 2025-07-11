@@ -1,15 +1,15 @@
    <h1 align="center"> E-games Goal Assistant </h1>
 
 <p align="center">
-Project developed using HTML, CSS & JavaScript <br/>
+Project developed using HTML, CSS & JavaScript<br/>
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;
+Check it out! https://cintiacab.github.io/esport-ai-agent/ <br/>
+</p>
 
 
-<br>
+
 
 
 ## 🚀 Technologies
@@ -30,7 +30,7 @@ This Project was developed using:
 
 ## 💻 Project
 
-This web application is an AI-driven Goal Assistant that act as a strategic and tactical consultant for players. It helps them make more informed decisions, optimize their "build" choices, and ultimately, improve their in-game performance and overall experience.
+This web application is an AI-driven Goal Assistant that act as a strategic and tactical consultant for players. It helps them make more informed decisions, optimize their "build" choices, and ultimately, improve their in-game performance and overall experience. 
 
 ## 💬 Heads up
 
