@@ -9,12 +9,7 @@ Check it out! https://cintiacab.github.io/esport-ai-agent/ <br/>
 </p>
 
 
-<p align="center">
-  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;
 
-
-<br>
 
 
 ## 🚀 Technologies
